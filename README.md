@@ -12,28 +12,28 @@ The artifact provides:
 
 ## Repository Structure
 .
-├── lace_rl/
-│   ├── agent/
-│   │   └── dqn_agent.py # DQN definition
-│   ├── sim/
-│   │   └── trace_simulator.py # trace-driven simulator
-│   └── utils/
-│       └── io.py
-├── scripts/
-│   └── run_demo.py # demo entrypoint
-├── configs/
-│   └── demo.json # config
-├── checkpoints/
-│   └── trained_agent.pth # pretrained model checkpoint
-├── data/
-│   └── demo/ # sampled data
-│   ├── invocations.pkl
-│   ├── green_trace.pkl
-│   ├── network_latency_map.pkl # optional
-│   └── cs_latency_dict.pkl # optional
-├── results/ # demo output folder
-├── requirements.txt
-└── README.md
+├── lace_rl/  
+│   ├── agent/  
+│   │   └── dqn_agent.py # DQN definition  
+│   ├── sim/  
+│   │   └── trace_simulator.py # trace-driven simulator  
+│   └── utils/  
+│       └── io.py  
+├── scripts/  
+│   └── run_demo.py # demo entrypoint  
+├── configs/  
+│   └── demo.json # config  
+├── checkpoints/  
+│   └── trained_agent.pth # pretrained model checkpoint  
+├── data/  
+│   └── demo/ # sampled data  
+│   ├── invocations.pkl  
+│   ├── green_trace.pkl  
+│   ├── network_latency_map.pkl # optional  
+│   └── cs_latency_dict.pkl # optional  
+├── results/ # demo output folder  
+├── requirements.txt  
+└── README.md  
 
 ---
 ## Quick Start (Demo)
